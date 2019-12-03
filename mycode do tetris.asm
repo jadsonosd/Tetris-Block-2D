@@ -1,12 +1,12 @@
 ;AH = 13h
-;AL = 01H    ; 06h modo  ; de 13 para 6 a proporcao
-;        bit 0: ; 1- atualiza a posição do cursor apos a escrita
+;AL = 01H    ; 06h modo  ; de 13 para 6 a proporção
+;        bit 0: ; 1- atualiza a posição do cursor após a escrita
 ;        bit 1: ; 1- string contém caracteres e atributos
 ;BL = ; atributo do caractere se o bit 1 em AL for 0
-;BH = ; numero da pagina de video
+;BH = ; número da página de vídeo
 ;DH, DL = ; linha, coluna da posicao de impressao
 ;CX = ; tamanho, em caracteres, da string
-;ES:BP = ; endereco do inicio da string   
+;ES:BP = ; endereço do início da string   
 
 ;
 ; Tetris Block 2D
@@ -41,7 +41,7 @@ int 21h
     ;mov eax, edx
     ;ret
     
-    ;proedimento sbx e ecx
+    ;procedimento sbx e ecx
     
     ;shuffle:
     
